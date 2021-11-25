@@ -1287,7 +1287,7 @@ function getreflink() {
                 'error'
             )
         } else {
-            document.getElementById('refaddress').value = 'https://shib-army.xyz/?ref=' + document.getElementById('refaddress').value;
+            document.getElementById('refaddress').value = 'https://shiba-army.xyz/?ref=' + document.getElementById('refaddress').value;
         }
     }
 }
@@ -1344,7 +1344,7 @@ function addToWallet() {
                 'address': '0xcd0c5515ecf6e749aa229c7d3cba3d4378593b5c',
                 'symbol': 'SHIB ARMY',
                 'decimals': '18',
-                'image': 'https://shib-army.xyz/images/favicon.ico',
+                'image': 'https://shiba-army.xyz/images/favicon.ico',
             },
         },
         id: Math.round(Math.random() * 100000)
