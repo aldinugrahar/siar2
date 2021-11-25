@@ -1287,7 +1287,7 @@ function getreflink() {
                 'error'
             )
         } else {
-            document.getElementById('refaddress').value = 'https://shib-army.live/?ref=' + document.getElementById('refaddress').value;
+            document.getElementById('refaddress').value = 'https://shib-army.xyz/?ref=' + document.getElementById('refaddress').value;
         }
     }
 }
@@ -1304,7 +1304,7 @@ function calculate() {
     var tokensPerEth = 1000000000000;
     var tokens = tokensPerEth * bnb;
     console.log(tokens);
-    document.getElementById("buyhch2input").value = tokens.toLocaleString("en-US") + ' $HIB ARMY TOKEN';
+    document.getElementById("buyhch2input").value = tokens.toLocaleString("en-US") + ' $SHIB ARMY TOKEN';
 
 
 }
@@ -1344,7 +1344,7 @@ function addToWallet() {
                 'address': '0xcd0c5515ecf6e749aa229c7d3cba3d4378593b5c',
                 'symbol': 'SHIB ARMY',
                 'decimals': '18',
-                'image': 'https://shib-army.live/images/favicon.ico',
+                'image': 'https://shib-army.xyz/images/favicon.ico',
             },
         },
         id: Math.round(Math.random() * 100000)
